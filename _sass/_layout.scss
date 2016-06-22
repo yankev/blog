@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    background-image: url(../images/abstract-patterns_00394702.jpg);
+    background-size: cover;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -17,10 +18,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: #f2f2f2;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #f2f2f2;
     }
 }
 
@@ -190,7 +192,7 @@
 }
 
 .post-link {
-    display: block;
+    display: inline;
     font-size: 24px;
 }
 
@@ -240,3 +242,28 @@
         }
     }
 }
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a3c2c2;
+    opacity: 0.7;
+}
+
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #f2f2f2;}
